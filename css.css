@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro:200,300,600,700&display=swap');
+
+*{padding:0;margin:0;box-sizing: border-box;font-family: 'Source Sans Pro', sans-serif;}
+body{}
+.container {width:90%;margin:auto}
+.header {height: 70px;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;justify-content: space-between;align-items: center;}
+.domainContact {margin: auto 0 5px 0;}
+.domainContact ul {text-align: right;list-style: none; font-size: 17px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.53;letter-spacing: 0.09px;text-align: right;color: rgba(0, 0, 0, 0.65);font-family: 'Source Sans Pro', sans-serif;}
+.domainContact ul a{ color: rgba(0, 0, 0, 0.65);text-decoration:none}
+.blueGraphic{background:#f2f5f7 url(images/blue-bg.jpg) repeat-x 0 0;padding-top:35px}
+.leftPane {width: 25%;}
+.left *{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.usersection {width: 100%;border-radius: 5px;background-color: #ffffff;padding:30px;text-align:center}
+.usersection .userimg img {width: 94%;max-width: 150px;}
+.usersection .username {font-size: 27px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.26;letter-spacing: normal;text-align: center;color: #152331;margin: 30px 0 20px;}
+.usersection div[class*="user_"] {margin: 0 0 15px;font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.18px;color: #1f3349;}
+.usersection div[class*="user_"] > span {display: block;font-size: 14px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.93;letter-spacing: 0.7px;color: #b2c2d5;font-family: 'Source Sans Pro', sans-serif;text-transform: uppercase;}
+.usersection div.user_sociallink ul.sociallinks {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;justify-content: center;}
+.usersection div.user_sociallink ul.sociallinks li {width: 28px;height: 28px;list-style: none;vertical-align: top;margin: 7px 10px 0;}
+.usersection div.user_sociallink ul.sociallinks li a {font-size: 0;width: 100%;height: 100%;display: inline-block;vertical-align: top;}
+.usersection div.user_sociallink ul.sociallinks li a.github {background: url(images/github.jpg) no-repeat 0 0;}
+.usersection div.user_sociallink ul.sociallinks li a.be {background: url(images/be.jpg) no-repeat 0 0;}
+.sep {border-bottom: 1px dashed #c5d1df;border-top: 1px dashed #ecf0f4;margin: 25px 0;}
+.TalscaleRemote {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;justify-content: space-between;flex-wrap:wrap}
+.TalscaleRemote > div {width: 48%;text-align:left;}
+.TalscaleRemote > div .title {font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.69;letter-spacing: 0.16px;text-align: left;color: #1f3349;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;align-items: center;}
+.TalscaleRemote > div .title i {width: 26px;height: 25px;background: url(images/guarantee.png) no-repeat 0 0;margin: 0 10px 0 0;}
+.TalscaleRemote > div div.rate {margin: 18px 0 0;}
+.TalscaleRemote > div div.rate div.number {font-family: 'Roboto', sans-serif;font-size: 16px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 2.06;letter-spacing: 1.6px;text-align: left;color: #b2c2d5;}
+.TalscaleRemote > div div.rate div.number span {font-family: 'Roboto', sans-serif;font-size: 25px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.32;letter-spacing: normal;text-align: left;color: #152331;}
+.TalscaleRemote > div div.rate div.range {width: 100%;height: 5px;border-radius: 10px;background-color: #ebebeb;margin: 5px 0 10px;}
+.TalscaleRemote > div div.rate div.range span {border-radius: 10px;background-color: #00ba79;display: inline-block;vertical-align: top;height:100%;}
+.TalscaleRemote > div.Talscale div.rate div.range span {background-color: #00ba79;}
+.TalscaleRemote > div.Remote div.rate div.range span {background-color: #f4b000;}
+.TalscaleRemote > div div.rate .viewreport {font-family: 'Source Sans Pro', sans-serif;;font-size: 14px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.93;letter-spacing: 0.07px;text-align: right;color: #2651e0;}
+.TalscaleRemote > div div.rate div.range span.eight{width:80%}
+.TalscaleRemote > div div.rate div.range span.six{width:60%}
+.leftPane .messagehire {  margin: 30px 0;}
+.leftPane .messagehire ul {  list-style: none;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;justify-content: space-between;}
+.leftPane .messagehire ul li {width: 48%;text-align: center;height: 43px;}
+.leftPane .messagehire ul li a {border-radius: 5px;border: solid 2px #1e59d0;width: 100%;height: 100%;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.36px;color: #1e59d0;text-decoration: none;align-items: center;justify-content: center;}
+.leftPane .messagehire ul li a.message, .leftPane .messagehire ul li a:hover {background:#1e59d0;color:#fff;}
+.rightPane {background-color: #ffffff;border-radius: 5px;width:73%}
+.main{display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;justify-content: space-between;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;}
+.innercontainer {padding: 26px;}
+.userbio {margin: 0 0 60px;}
+.userbio h1 {font-family: 'Source Sans Pro', sans-serif;font-size: 30px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.27;letter-spacing: normal;text-align: left;color: #152331;margin: 0 0 20px;}
+.userbio p {font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.18px;text-align: left;color: #1f3349;}
+.userbio a.readmore-btn {font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.18px;text-align: left;color: #2c4cec;margin: 15px 0 0;display: inline-block;text-decoration: none;}
+.experiencesection {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;margin: 0 0 30px;}
+.experiencesection .section {width: 33%;margin: 0 0 25px;}
+.experiencesection .section h3 {font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.18px;text-align: left;color: #1f3349;margin: 0 0 15px;}
+.experiencesection .section .detail {font-family: 'Source Sans Pro', sans-serif;font-size: 30px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 0.9;letter-spacing: 0.6px;text-align: left;color: #5a5a5a;}
+.experiencesection .section .detail.lang {font-family: 'Source Sans Pro', sans-serif;font-size: 20px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.35;letter-spacing: 0.4px;text-align: left;color: #5a5a5a;}
+.experiencesection .section .detail.lang span {color: #2355d9;}
+.detail ul.points {list-style: none;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;flex-wrap: wrap;}
+.detail ul.points{list-style:none}
+.detail ul.points li {border-radius: 3px;background-color: #f4f5f6;font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.25;letter-spacing: normal;text-align: left;color: #5a5a5a;padding: 4px 10px;display: inline-block;vertical-align: top;margin: 0 16px 16px 0;}
+.detail ul.points li:last-child {margin-right: 0;}
+.experiencesection .section:last-child {-webkit-box-flex: 1;-moz-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;}
+.experiencedetails h2 {font-family: 'Source Sans Pro', sans-serif;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.13;letter-spacing: 0.24px;text-align: left;color: #152331;margin: 0 0 25px;}
+.experiencedetails {margin: 0 0 40px;}
+.experiencedetails .details ul {list-style: none;}
+.experiencedetails > .details > ul > li {margin: 0 0 0 45px;position: relative;padding-bottom: 10px;}
+.experiencedetails .details > ul > li::before {content: '';width: 9px;height: 9px;background: #8f96a3;border-radius: 50%;position: absolute;left: -42px;top: 0;border-top: 10px solid #fff;border-bottom: 10px solid #fff;z-index: 1;}
+.experiencedetails .details > ul > li:not(:last-child)::after {content: '';width: 0px;height: 100%;border-left: 1px dashed #8f96a3;position: absolute;top: 0;left: -38px;}
+.experiencedetails > .details > ul > li h3 {font-size: 20px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.35;letter-spacing: 0.1px;text-align: left;color: #000000d9;font-family: 'Source Sans Pro', sans-serif;margin: 0 0 12px;}
+.experiencedetails > .details > ul > li .exbrife {font-family: 'Source Sans Pro', sans-serif;margin: 0 0 12px;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.28;letter-spacing: 0.09px;text-align: left;color: #9399a0;}
+.experiencedetails .details .exbrife ul {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.experiencedetails .details .exbrife ul li {padding: 0 13px;position: relative;}
+.experiencedetails .details .exbrife ul li:not(:last-child):after {width: 4px;height: 4px;background: #999;position: absolute;right: -2px;top: 0;bottom: 0;margin: auto;content: '';border-radius: 50%;}
+.experiencedetails .details .exbrife ul li:first-child {padding-left: 0;}
+.experiencedetails .details .exbrife ul li a.viewproject {font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: 500;font-stretch: normal;font-style: normal;line-height: 1.25;letter-spacing: normal;text-align: left;color: #0055ffd9;}
+.experiencedetails > .details > ul > li .txt {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;justify-content: space-between;margin:0 0 15px}
+.experiencedetails > .details > ul > li .txt p {-webkit-box-flex: 1;-moz-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.09px;text-align: left;color: #1f3349;}
+.experiencedetails > .details > ul > li .txt p + img {    margin: 0 auto auto 30px;}
+.experiencedetails > .details > ul > li .detail span {font-size: 16px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 25px;letter-spacing: normal;text-align: left;color: #b7b7b7;margin: 0 10px 0 0;}
+.experiencedetails > .details > ul > li .detail {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.experiencedetails > .details > ul > li .detail ul.points li {font-size: 14px;}
+.experiencedetails > .details > ul > li > ul {color: rgba(0, 0, 0, 0.65);font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 2;letter-spacing: 0.09px;text-align: left;color: #000000a6;margin:0 0 15px;	}
+.experiencedetails > .details > ul > li > ul li {position: relative;padding-left: 25px;}
+.experiencedetails > .details > ul > li > ul li::before {width: 5px;height: 5px;background: #8f96a3;border-radius: 50%;content: '';position: absolute;left: 0;top: 16px;}
+.skills {margin: 0 0 55px;}
+.skills .detail ul.points li {font-size: 14px;}
+.skills h2 {font-family: 'Source Sans Pro', sans-serif;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.13;letter-spacing: 0.12px;text-align: left;color: #000000d9;margin: 0 0 15px;}
+.skills h3 {font-family: 'Source Sans Pro', sans-serif;font-size: 20px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.35;letter-spacing: 0.1px;text-align: left;color: #000000d9;margin: 0 0 8px;}
+.remotereadiness {margin: 0 0 50px;}
+.remotereadiness > div {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;}
+.remotereadiness > div > div {width:50%}
+.remotereadiness > h2 {font-family: 'Source Sans Pro', sans-serif;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.29;letter-spacing: normal;text-align: left;color: #000000d9;margin: 0 0 25px;}
+.remotereadiness > div > div h3 {font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 1.25;letter-spacing: normal;text-align: left;color: #000000d9;margin-bottom:20px}
+.remotereadiness > div > div h4 {font-family: 'Source Sans Pro', sans-serif;font-size: 14px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.93;letter-spacing: 0.14px;text-align: left;color: #919396;}
+.remotereadiness > div > div.InternetDetails ul {list-style: none;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;}
+.remotereadiness > div > div.InternetDetails ul li {list-style: none;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.remotereadiness > div > div > div {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;align-items: center;margin-bottom: 40px;}
+.remotereadiness > div > div > div div.icon {margin: 0 30px 0 0;}
+.remotereadiness > div > div > div div.brife {font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.18px;text-align: left;
+color: #919396;}
+.remotereadiness > div > div > div div.brife > span{display:block;font-size: 20px;  font-family: 'Source Sans Pro', sans-serif;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.35;letter-spacing: 0.4px;text-align: left;color: #5a5a5a;}
+.remotereadiness > div > div.InternetDetails ul li{margin:15px 40px 15px 0}
+.remotereadiness > div > div.InternetDetails ul li a {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;align-items: center;}
+.remotereadiness > div > div.InternetDetails ul li a img {margin: auto;}
+.remotereadiness > div > div.InternetDetails ul li:last-child {margin-right: 0px;}
+.remotereadiness > div > div > a.view-btn{font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.28;letter-spacing: normal;text-align: left;color: #0055ffd9;}
+.checked { color: orange;}
+.talescalereport {margin: 0 0 60px;}
+.talescalereport > h2 {font-family: 'Source Sans Pro', sans-serif;font-size: 24px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.29;letter-spacing: normal;text-align: left;color: #000000d9;margin-bottom:25px}
+.talescalereportbox {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;justify-content:space-between;}
+.talescalereportbox > div{width:48%}
+.Graph > img {width:100%;max-width:496px}
+.talescalereportbox h3 {font-family: 'Source Sans Pro', sans-serif;font-size: 16px;font-weight: bold;font-stretch: normal;font-style: normal;line-height: 2.31;letter-spacing: 0.16px;text-align: left;color: #152331;margin: 0 0 15px;}	
+.rating > div > div{width: 50%;}
+.rating {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;flex-direction: column;}
+.rating > div span.fa {font-size: 27px;color: #eaedf0;}
+.rating > div div span.fa:not(:first-child){margin-left:2px	}
+.rating > div div span.fa.checked { color: orange;}
+.ratingstar {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;align-items: center;}
+.rating > div div span.rate {font-family: 'Source Sans Pro', sans-serif;font-size: 21px;font-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.67;letter-spacing: 0.21px;text-align: right;color: #1f3349a6;margin: 0 0 0 10px;}
+.rating a.viewfullreport-btn {border-radius: 5px;background-color: #1e59d0;font-family: 'Source Sans Pro', sans-serif;font-size: 18px;font-weight: 600;font-stretch: normal;font-style: normal;line-height: 1.5;letter-spacing: 0.36px;text-align: left;color: #ffffff;width:156px;height:40px;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;align-items: center;justify-content: center;text-decoration: none;}
+.talescalereportbox > div div.ratingbox {width: 100%;display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;margin: 0 0 30px;}
+@media screen and (min-width:768px) and (max-width:1024px){
+.talescalereportbox > div div.ratingbox {flex-direction: column;}	
+.rating > div > div {	width: 100%;margin-bottom:15px}
+}
+@media screen and (min-width:700px) and (max-width:990px){
+.experiencedetails > .details > ul > li .txt {flex-direction: column;}
+.experiencedetails > .details > ul > li .txt p + img {margin: 15px auto 15px 0;}
+.experiencesection .section {width: 48%;}
+.leftPane {width: 30%;}
+.rightPane {width: 67%;}
+.TalscaleRemote > div {width: 100%;text-align: left;}
+.TalscaleRemote > div:not(:last-child) {	margin: 0 0 20px;}
+.usersection .userimg img {width: 65%;max-width: 150px;}
+.talescalereportbox > div {width: 100%;}
+.talescalereportbox > div:not(:last-child) {margin-bottom: 25px;}
+}
+@media screen and (min-width:481px) and (max-width:699px){
+.remotereadiness > div > div {width: 100%;}
+.remotereadiness > div > div:not(:last-child) {margin-bottom: 25px;}
+.remotereadiness > div > div {display: -webkit-box;display: -moz-box;display: -ms-flexbox; display: -webkit-flex; display: flex;-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;}
+.remotereadiness > div > div h3 {width: 100%;}
+.remotereadiness > div > div > div {width: 48%;}
+.experiencedetails > .details > ul > li .detail {flex-direction: column;}
+.experiencedetails > .details > ul > li .detail span {margin: 0 10px 10px 0;}
+.experiencedetails > .details > ul > li .txt p + img {margin: 15px auto 15px 0;}
+.remotereadiness > div > div.InternetDetails:last-child {flex-direction: column;}
+.experiencedetails > .details > ul > li .txt {	flex-direction: column;}
+.experiencedetails > .details > ul > li .exbrife {font-size: 17px;}
+}
+@media screen and (min-width:320px) and (max-width:699px){
+.leftPane {width: 100%;}
+.rightPane {width: 100%;margin-top:25px}
+.experiencesection .section {	width: 48%;	margin: 0 0 25px;}
+.talescalereportbox > div {	width: 100%;}
+.talescalereportbox > div:not(:last-child) {margin-bottom: 25px;}
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+.talescalereportbox > div div.ratingbox {flex-direction: column;}	
+.rating > div > div {	width: 100%;margin-bottom:15px}
+.remotereadiness > div > div {width: 100%;}
+.remotereadiness > div > div:not(:last-child) {margin-bottom: 25px;}
+.experiencedetails > .details > ul > li {	margin: 0 0 0 25px;}
+.experiencedetails .details > ul > li::before {left: -25px;top: -2px;}
+.experiencedetails .details > ul > li:not(:last-child)::after {	left: -22px;}
+.experiencedetails .details .exbrife ul li a.viewproject {font-size: 13px;}
+.experiencedetails > .details > ul > li .exbrife {font-size: 14px;}
+.experiencedetails > .details > ul > li .detail {flex-direction: column;}
+.experiencedetails > .details > ul > li .detail span {margin: 0 10px 10px 0;}
+.experiencedetails > .details > ul > li .txt p + img {margin: 15px auto 15px 0;}
+.logo {width: 115px;}
+.logo img {width: 100%;}
+.domainContact ul {font-size: 14px;}
+.domainContact {margin: auto;}
+.experiencedetails .details .exbrife ul {-webkit-box-wrap: wrap;-moz-box-wrap: wrap;-ms-flex-wrap: wrap;-webkit-wrap: wrap;flex-wrap: wrap;}
+.experiencedetails .details .exbrife ul li.yr + li {padding: 0;}
+.experiencedetails .details .exbrife ul li.yr::after {display: none;}
+}
+@media screen and (min-width:320px) and (max-width:380px){
+.TalscaleRemote > div {width: 100%;text-align: left;}
+.TalscaleRemote > div:not(:last-child) {	margin: 0 0 20px;}
+}
